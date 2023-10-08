@@ -134,6 +134,9 @@ body {
   line-height: 1.2;
   /* color:rgba(228, 0, 0, 0.911) */
 }
+.h8{
+  color: #dd0707;
+}
 
 .slide_content .sub_title {
   font-size: 18px;
