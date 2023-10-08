@@ -10,18 +10,22 @@ var mainSwiper = new Swiper(".mainSwiper", {
     nextEl: " .swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+
+  pagination: {
+    el: ".swiper-pagination",
+  }
   // thumbs: {
   //   swiper: thumbSwiper,
   // },
 });
 
-var thumbSwiper = new Swiper(".thumbSwiper", {
-  loop: true,
-  slidesPerView: 1,
-  spaceBetween: 30,
-  effect: "fade",
-  fadeEffect: { crossFade: true },
-});
+// var thumbSwiper = new Swiper(".thumbSwiper", {
+//   loop: true,
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   effect: "fade",
+//   fadeEffect: { crossFade: true },
+// });
 
-mainSwiper.controller.control = thumbSwiper;
-thumbSwiper.controller.control = mainSwiper;
+// mainSwiper.controller.control = thumbSwiper;
+// thumbSwiper.controller.control = mainSwiper;
