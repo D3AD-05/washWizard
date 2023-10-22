@@ -243,7 +243,12 @@ body {
   margin-top: 15px;
 }
 .contact-footer {
-  margin-top: 15px;
+  margin-top: -61px;
+  margin-left: 5px;
+}
+.social-network{
+  margin-left: 210px;
+
 }
 .coppy-right {
   font-size: 12px;
